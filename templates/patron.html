@@ -1,0 +1,20 @@
+{% extends "template.html" %}
+{% block content %}
+<div class="profile-wrapper">
+<aside class="sidebar-first"></aside>
+
+<div class="main">
+<div class="patron">
+<p class="patron-txt">{% trans %}As you know, liantichess is a free server and it will remain free forever. However, maintaining and improving the server costs time and money.
+If you like our work and find our server useful, please donate through patreon.{% endtrans %}
+</p>
+<a class="patron-btn" href="https://www.patreon.com/SriMethan" title="Become a Patron!"><img src={{ static("images/patreon_button.png") }}></a>
+</form>
+</div>
+</div>
+
+<aside class="sidebar-second"></aside>
+{% endblock %}
+{% block js %}
+    <script src="{{ js }}"></script>
+{% endblock %}

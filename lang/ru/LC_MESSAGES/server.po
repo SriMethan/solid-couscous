@@ -1,0 +1,191 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# 
+# Translators:
+# Стримы с шахами и матами, 2021
+# gbtami <gbtami@gmail.com>, 2022
+# Артем Артем, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-05-02 23:28+0200\n"
+"PO-Revision-Date: 2020-05-04 12:19+0000\n"
+"Last-Translator: Артем Артем, 2022\n"
+"Language-Team: Russian (https://www.transifex.com/gbtami/teams/14790/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../templates/closed.html:8
+msgid "This account is closed."
+msgstr "Этот аккаунт закрыт."
+
+#: ../templates/patron.html:8
+msgid ""
+"As you know, pychess-variants is a free server and it will remain free forever. However, maintaining and improving the server costs time and money.\n"
+"If you like our work and find our server useful, please donate through patreon or paypal."
+msgstr ""
+"Как вы знаете, pychess-variants - это бесплатный сервер, и он останется бесплатным навсегда. Однако обслуживание и улучшение сервера стоит времени и денег.\n"
+"Если вам нравится наша работа и вы находите наш сервер полезным, пожалуйста, сделайте пожертвование через Patreon или PayPal."
+
+#: ../templates/players.html:7
+msgid "All players"
+msgstr "Все игроки"
+
+#: ../templates/players.html:9 ../templates/winners.html:6
+msgid "Tournament winners"
+msgstr "Победители турниров"
+
+#: ../templates/players.html:10 ../templates/shields.html:6
+msgid "Tournament shields"
+msgstr "Щиты турниров"
+
+#: ../templates/players.html:14
+msgid "Online"
+msgstr "Онлайн"
+
+#: ../templates/players.html:33
+msgid "Anonymous"
+msgstr " Аноним"
+
+#: ../templates/players50.html:6
+msgid "Top 50"
+msgstr "Лучшие 50"
+
+#: ../templates/profile.html:14
+#, python-format
+msgid "%(count)s game"
+msgid_plural "%(count)s games"
+msgstr[0] "%(count)s игра"
+msgstr[1] "%(count)s игры"
+msgstr[2] "%(count)s игр"
+msgstr[3] "%(count)s игр"
+
+#: ../templates/profile.html:42
+msgid "Watch games"
+msgstr "Смотреть игры"
+
+#: ../templates/profile.html:44
+msgid "Challenge to a game"
+msgstr "Вызвать на игру"
+
+#: ../templates/profile.html:47
+msgid "Import game"
+msgstr "Импорт игры"
+
+#: ../templates/profile.html:50
+msgid "Export games"
+msgstr "Экспорт игр"
+
+#: ../templates/profile.html:53
+msgid "Lichess profile"
+msgstr "Lichess профиль"
+
+#: ../templates/template.html:18
+msgid "Play"
+msgstr "Игра"
+
+#: ../templates/template.html:20
+msgid "Create a game"
+msgstr "Создать игру"
+
+#: ../templates/template.html:21 ../templates/tournaments.html:6
+msgid "Tournaments"
+msgstr "Турниры"
+
+#: ../templates/template.html:25
+msgid "Watch"
+msgstr "Просмотр"
+
+#: ../templates/template.html:27
+msgid "Tv"
+msgstr "ТВ"
+
+#: ../templates/template.html:28
+msgid "Current games"
+msgstr "Текущие игры"
+
+#: ../templates/template.html:32
+msgid "Community"
+msgstr "Сообщество"
+
+#: ../templates/template.html:34
+msgid "Players"
+msgstr "Игроки"
+
+#: ../templates/template.html:35
+msgid "Blog"
+msgstr "Блог"
+
+#: ../templates/template.html:36
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: ../templates/template.html:40
+msgid "Tools"
+msgstr "Инструменты"
+
+#: ../templates/template.html:42
+msgid "Editor"
+msgstr "Редактор"
+
+#: ../templates/template.html:43
+msgid "Analysis"
+msgstr "Анализ"
+
+#: ../templates/template.html:46
+msgid "Variants"
+msgstr "Варианты"
+
+#: ../templates/template.html:59
+msgid "Login with Lichess"
+msgstr "Войти через Lichess"
+
+#: ../templates/template.html:59
+msgid "Log in"
+msgstr "Войти"
+
+#: ../templates/tournaments.html:8
+msgid "Tournament calendar"
+msgstr "Календарь турниров"
+
+#: ../templates/tournaments.html:10
+msgid "CREATE A NEW TOURNAMENT"
+msgstr "СОЗДАТЬ НОВЫЙ ТУРНИР"
+
+#: ../templates/tournaments.html:19
+msgid "Now playing"
+msgstr "Сейчас играются"
+
+#: ../templates/tournaments.html:21
+msgid "Starting soon"
+msgstr "Скоро начнутся"
+
+#: ../templates/tournaments.html:23
+msgid "Finished"
+msgstr "Законченные"
+
+#: ../templates/tournaments.html:44
+msgid "Rated"
+msgstr "Рейтинговая"
+
+#: ../templates/tournaments.html:44
+msgid "Casual"
+msgstr "Товарищеская"
+
+#: ../templates/tournaments.html:51
+#, python-format
+msgid "%(count)s player"
+msgid_plural "%(count)s players"
+msgstr[0] "%(count)s игрок"
+msgstr[1] "%(count)s игрока"
+msgstr[2] "%(count)s игроков"
+msgstr[3] "%(count)s игроков"
