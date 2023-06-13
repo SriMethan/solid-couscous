@@ -7,6 +7,10 @@
     "type": "git",
     "url": "https://github.com/SriMethan/liantichess.git"
   },
+  "engines": {
+    "node": "14.17.0"
+  },
+
   "main": "static/pychess-variants.js",
   "author": "Bajusz Tamás And SriMethan",
   "license": "AGPL-3.0",
